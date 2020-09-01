@@ -1,17 +1,5 @@
 import React, { Component } from "react";
-import {
-  Tabs,
-  Tab,
-  Grid,
-  Cell,
-  Card,
-  CardTitle,
-  CardText,
-  CardActions,
-  Button,
-  CardMenu,
-  IconButton,
-} from "react-mdl";
+import {Tabs,Tab,Grid,Cell,Card,CardTitle,CardText,CardActions,Button,CardMenu,IconButton,} from "react-mdl";
 
 class Projects extends Component {
   constructor(props) {
@@ -140,20 +128,20 @@ class Projects extends Component {
   }
   render() {
     return (
-      <div>
-        <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-          <Tab>Project 1</Tab>
-          <Tab>Project 2</Tab>
-          <Tab>Project 3</Tab>
-          <Tab>Project 4</Tab>
-        </Tabs>
-
-
+      <div className="project-body">
+        <div className="project-content">
+          <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
+            <Tab>Project 1</Tab>
+            <Tab>Project 2</Tab>
+            <Tab>Project 3</Tab>
+            <Tab>Project 4</Tab>
+          </Tabs>
           <Grid>
             <Cell col={12}>
               <div className="content">{this.toggleCategories()}</div>
             </Cell>
           </Grid>
+        </div>
       </div>
     )
   }

@@ -19,8 +19,22 @@
   height: 100%;
 }
 
+/* projects styling */
 .projects-grid {
   display: flex;
+}
+
+.project-body{
+  background-image: url(./img/Sparkle.jpg);
+  background-repeat: none;
+  background-size: cover;
+  height:100%;
+}
+
+.project-content{
+  background: #4c5b5e;
+  opacity:.92;
+  border-radius: 12px;
 }
 
 /* Resume Page css */

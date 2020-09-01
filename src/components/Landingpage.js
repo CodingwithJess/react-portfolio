@@ -14,20 +14,23 @@ class Landing extends Component {
               className="avatar-img"
             />
             <div className="banner-text">
-              <hr />
+              <hr/>
+              <br/>
               <p>
-                HTML/CSS | Bootstrap | JavaScript | React | NodeJS | Express |
-                MongoDB
+                HTML/CSS | Bootstrap | JavaScript | MongoDB | Express | React |
+                Node
               </p>
+              <hr/>
+              <br/>
               <div className="social-links">
                 {/* LinkedIn */}
                 <a href="https://www.linkedin.com/in/edens-jessica/" rel="noopener noreferrer" target="_blank">
-                  <i className="fa fa-linkedin-square" aria-hidden="true" />
+                  <i className="fab fa-linkedin-in" aria-hidden="true" />
                 </a>
 
                 {/* Github */}
                 <a href="https://github.com/CodingwithJess" rel="noopener noreferrer" target="_blank">
-                  <i className="fa fa-github-square" aria-hidden="true" />
+                  <i className="fab fa-github" aria-hidden="true" />
                 </a>
               </div>
             </div>
