@@ -53,11 +53,22 @@ span{
   border-radius: 12px;
 }
 
-/* Resume Page css */
-.resume-right-col {
-  background: #2b2e39;
-  color: #fcf4e7;
-  padding: 2em;
+.about-body{
+  background-image: url(./img/Sparkle.jpg);
+  background-repeat: none;
+  background-size: cover;
+  height: 100%;
+}
+
+.about-grid{
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  background: #4c5b5e;
+  opacity:.92;
+  border-radius:12px;
+  color: #ffdfaf;
+  marign: 20px;
 }
 
 /* contact page css */
