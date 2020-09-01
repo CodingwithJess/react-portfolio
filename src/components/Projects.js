@@ -16,20 +16,20 @@ class Projects extends Component {
             <CardTitle
               style={{
                 color: "#fff",
-                height: "176px",
+                height: "276px",
                 background:
-                  "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover",
+                  "url(https://raw.githubusercontent.com/CodingwithJess/CampTracker/master/public/assets/images/CampFound-Preview.png) top / cover",
               }}
             >
-              Project #1
+              CampFound
             </CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
+            Ever want a way to track what campgrounds you love or would like to visit? CampFound is a great way to do that. Add places you'd love to go on your Wishlist page and add your favorite spots to the visited campgrounds page.
             </CardText>
             <CardActions border>
-              <Button href="https://www.linkedin.com/in/edens-jessica/" target="_blank" colored>GitHub</Button>
-              <Button href="https://www.linkedin.com/in/edens-jessica/" target="_blank" colored>Live Demo</Button>
+              <Button style ={{textAlign:"center"}} href="https://github.com/CodingwithJess/CampTracker" target="_blank" colored><i class="fab fa-github"></i> GitHub Repo</Button>
+              <br/>
+              <Button href="https://camp-tracker.herokuapp.com" target="_blank" colored><i class="fas fa-external-link-alt"></i> Deployed Site</Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -44,21 +44,21 @@ class Projects extends Component {
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
-                color: "#fff",
-                height: "176px",
+                color: "#4c5b5e",
+                height: "276px",
                 background:
-                  "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover",
+                  "url(https://raw.githubusercontent.com/CodingwithJess/bobs-burgers/master/public/img/BobsBurgers.png) top / cover",
               }}
             >
-              Project #2
+              Bob's Burgers
             </CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
+            Bob's Burgers is burger application that allows a user to add burgers to the menu, consume the burgers, and delete them. When a burger has been eaten, it moves categories on the page.
             </CardText>
             <CardActions border>
-              <Button href="https://www.linkedin.com/in/edens-jessica/" target="_blank" colored>GitHub</Button>
-              <Button href="https://www.linkedin.com/in/edens-jessica/" target="_blank" colored>Live Demo</Button>
+            <Button href="https://github.com/CodingwithJess/bobs-burgers" target="_blank" colored><i class="fab fa-github"></i> GitHub Repo</Button>
+              <br/>
+              <Button href="https://rocky-fjord-82526.herokuapp.com" target="_blank" colored><i class="fas fa-external-link-alt"></i> Deployed Site</Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -73,21 +73,21 @@ class Projects extends Component {
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
-                color: "#fff",
-                height: "176px",
+                color: "#4c5b5e",
+                height: "276px",
                 background:
-                  "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover",
+                  "url(https://raw.githubusercontent.com/CodingwithJess/moolah/master/public/icons/MoolahPreview.png) top / cover",
               }}
             >
-              Project #3
+              Moolah
             </CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
+            This app will allow users to keep track of a simple budget while offline as a progressive web app. The data will be stored until the user is back online where the data will be added from LocalDB into MongoDB storage.
             </CardText>
             <CardActions border>
-              <Button href="https://www.linkedin.com/in/edens-jessica/" target="_blank" colored>GitHub</Button>
-              <Button href="https://www.linkedin.com/in/edens-jessica/" target="_blank" colored>Live Demo</Button>
+            <Button href="https://github.com/CodingwithJess/moolah" target="_blank" colored><i class="fab fa-github"></i> GitHub Repo</Button>
+              <br/>
+              <Button href="https://moolah-tracker.herokuapp.com/" target="_blank" colored><i class="fas fa-external-link-alt"></i> Deployed Site</Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -103,20 +103,20 @@ class Projects extends Component {
             <CardTitle
               style={{
                 color: "#fff",
-                height: "176px",
+                height: "276px",
                 background:
-                  "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover",
+                  "url(https://raw.githubusercontent.com/CodingwithJess/FITish/master/public/img/FITishPreview.png) top / cover",
               }}
             >
-              Project #4
+              FITish
             </CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
+            This app allows users to view, create, and track daily workouts. 
             </CardText>
             <CardActions border>
-              <Button href="https://www.linkedin.com/in/edens-jessica/" target="_blank" colored>GitHub</Button>
-              <Button href="https://www.linkedin.com/in/edens-jessica/" target="_blank" colored>Live Demo</Button>
+            <Button href="https://github.com/CodingwithJess/FITish" target="_blank" colored><i class="fab fa-github"></i> GitHub Repo</Button>
+              <br/>
+              <Button href="https://ancient-gorge-35047.herokuapp.com" target="_blank" colored><i class="fas fa-external-link-alt"></i> Deployed Site</Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -131,10 +131,10 @@ class Projects extends Component {
       <div className="project-body">
         <div className="project-content">
           <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-            <Tab>Project 1</Tab>
-            <Tab>Project 2</Tab>
-            <Tab>Project 3</Tab>
-            <Tab>Project 4</Tab>
+            <Tab>1</Tab>
+            <Tab>2</Tab>
+            <Tab>3</Tab>
+            <Tab>4</Tab>
           </Tabs>
           <Grid>
             <Cell col={12}>

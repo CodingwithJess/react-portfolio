@@ -7,10 +7,20 @@
   font-size:16px !important;
 }
 
+.mdl-tabs__tab-bar{
+  border-bottom:none !important;
+}
+
 span{
   min-height: 100px;
   display: inline-flex;
   align-items: center;
+}
+.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active{
+  color:#4c5b5e !important;
+  background-color:white;
+  border-radius: 50%;
+  margin:5px;
 }
 
 .landing-grid {
