@@ -25,14 +25,17 @@
 
 /* Resume Page css */
 .resume-right-col {
-  background: #27221f;
-  color: white;
+  background: #2b2e39;
+  color: #fcf4e7;
   padding: 2em;
 }
 
 /* contact page css */
 
 .contact-body {
+  background-image: url(./img/Sparkle.jpg);
+  background-repeat: none;
+  background-size: cover;
   margin: auto;
   position: fixed;
   width: 100%;
@@ -46,8 +49,10 @@
   justify-content: center;
   width: 80%;
   height: 550px;
-  background: white;
-  color: black;
+  background: #4c5b5e;
+  opacity:.92;
+  border-radius:12px;
+  color: #ffdfaf;
   margin-bottom: 20px;
 }
 
@@ -61,10 +66,15 @@
 }
 
 .contact-grid hr {
-  border-top: 5px dotted black;
+  border-top: 5px dotted #eebe68;
   width: 50%;
   margin: auto;
 }
+
+.fa{
+  color: #eebe68;
+}
+
 
 .contact-list i {
   font-size: 66px;
@@ -93,7 +103,7 @@ p, a{
 .banner-text h1 {
   font-size: 46px;
   font-weight: bold;
-  color: white;
+  color: #fcf4e7;
 }
 
 .banner-text hr {
@@ -103,7 +113,7 @@ p, a{
 }
 
 .banner-text p {
-  color: white;
+  color: #fcf4e7;
   font-size: 20px;
   padding: 1em;
 }
@@ -116,7 +126,7 @@ p, a{
 }
 
 .social-links i {
-  color: white;
+  color: #fcf4e7;
   font-size: 5em;
   padding: 8px;
 }

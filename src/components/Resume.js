@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
-import Education from "./education";
-import Experience from "./experience";
-import Skills from "./skills";
+import Education from "./Education";
+import Experience from "./Experience";
+import Skills from "./Skills";
 
 class Resume extends Component {
   render() {
@@ -18,9 +18,9 @@ class Resume extends Component {
               />
             </div>
 
-            <h2 style={{ paddingTop: "2em" }}>Paul Hanna</h2>
-            <h4 style={{ color: "grey" }}>Programmer</h4>
-            <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
+            <h2 style={{ paddingTop: "2em" }}>Jessica Edens</h2>
+            <h4 style={{ color: "grey" }}>Full-Stack Web Developer</h4>
+            <hr style={{ borderTop: "3px solid #eebe68", width: "50%" }} />
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
@@ -29,16 +29,16 @@ class Resume extends Component {
               survived not only five centuries, but also the leap into
               electronic typesetting, remaining essentially unchanged.
             </p>
-            <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
-            <h5>Address</h5>
-            <p>1 Hacker Way Menlo Park, 94025</p>
+            <hr style={{ borderTop: "3px solid #eebe68", width: "50%" }} />
+            <h5>Location</h5>
+            <p>Denver, CO</p>
             <h5>Phone</h5>
-            <p>(123) 456-7890</p>
+            <p>(303) 905-5419</p>
             <h5>Email</h5>
-            <p>someone@example.com</p>
+            <p>jess@codingwithjess.com</p>
             <h5>Web</h5>
-            <p>mywebsite.com</p>
-            <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
+            <p>www.codingwithjess.com</p>
+            <hr style={{ borderTop: "3px solid #eebe68", width: "50%" }} />
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
@@ -56,7 +56,7 @@ class Resume extends Component {
               schoolName="My 2nd University"
               schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
             />
-            <hr style={{ borderTop: "3px solid #e22947" }} />
+            <hr style={{ borderTop: "3px solid #99b2b9" }} />
 
             <h2>Experience</h2>
 
@@ -73,7 +73,7 @@ class Resume extends Component {
               jobName="Second Job"
               jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
             />
-            <hr style={{ borderTop: "3px solid #e22947" }} />
+            <hr style={{ borderTop: "3px solid #99b2b9" }} />
             <h2>Skills</h2>
             <Skills skill="javascript" progress={100} />
             <Skills skill="HTML/CSS" progress={80} />
