@@ -7,6 +7,12 @@
   font-size:16px !important;
 }
 
+span{
+  min-height: 100px;
+  display: inline-flex;
+  align-items: center;
+}
+
 .landing-grid {
   background-image: url(./img/Sparkle.jpg);
   background-repeat: none;
