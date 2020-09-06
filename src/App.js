@@ -12,7 +12,7 @@ class App extends Component {
           <Header
             className="header-color"
             title={
-              <Link style={{ textDecoration: "none", color: "white" }} to="/">
+              <Link style={{ textDecoration: "none", color: "white" }} to="/react-portfolio/">
                 Home
               </Link>
             }
@@ -26,7 +26,7 @@ class App extends Component {
           </Header>
           <Drawer
             title={
-              <Link style={{ textDecoration: "none", color: "black" }} to="/">
+              <Link style={{ textDecoration: "none", color: "black" }} to="/react-portfolio/">
                 Home
               </Link>
             }
