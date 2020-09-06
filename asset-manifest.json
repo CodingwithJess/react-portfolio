@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.e6e9272a.chunk.css",
-    "main.js": "/static/js/main.b2dc4543.chunk.js",
-    "main.js.map": "/static/js/main.b2dc4543.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
-    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
-    "static/css/2.cd1c2086.chunk.css": "/static/css/2.cd1c2086.chunk.css",
-    "static/js/2.21978199.chunk.js": "/static/js/2.21978199.chunk.js",
-    "static/js/2.21978199.chunk.js.map": "/static/js/2.21978199.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.a5d9ab297dab947573db47e2c89d60fb.js": "/precache-manifest.a5d9ab297dab947573db47e2c89d60fb.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.cd1c2086.chunk.css.map": "/static/css/2.cd1c2086.chunk.css.map",
-    "static/css/main.e6e9272a.chunk.css.map": "/static/css/main.e6e9272a.chunk.css.map",
-    "static/js/2.21978199.chunk.js.LICENSE.txt": "/static/js/2.21978199.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/Sparkle.1d34e41d.jpg",
-    "static/media/logo.png": "/static/media/logo.e44a3c4d.png",
-    "static/media/profile.jpeg": "/static/media/profile.bd97554f.jpeg"
+    "main.css": "/react-portfolio/static/css/main.0cd8f19e.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.e2064be0.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.e2064be0.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.1d992053.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.1d992053.js.map",
+    "static/css/2.cd1c2086.chunk.css": "/react-portfolio/static/css/2.cd1c2086.chunk.css",
+    "static/js/2.21978199.chunk.js": "/react-portfolio/static/js/2.21978199.chunk.js",
+    "static/js/2.21978199.chunk.js.map": "/react-portfolio/static/js/2.21978199.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "precache-manifest.f5372449baa45dbe26a5d1eabfd65d38.js": "/react-portfolio/precache-manifest.f5372449baa45dbe26a5d1eabfd65d38.js",
+    "service-worker.js": "/react-portfolio/service-worker.js",
+    "static/css/2.cd1c2086.chunk.css.map": "/react-portfolio/static/css/2.cd1c2086.chunk.css.map",
+    "static/css/main.0cd8f19e.chunk.css.map": "/react-portfolio/static/css/main.0cd8f19e.chunk.css.map",
+    "static/js/2.21978199.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.21978199.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/react-portfolio/static/media/Sparkle.1d34e41d.jpg",
+    "static/media/logo.png": "/react-portfolio/static/media/logo.e44a3c4d.png",
+    "static/media/profile.jpeg": "/react-portfolio/static/media/profile.bd97554f.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.19ccc7f6.js",
+    "static/js/runtime-main.1d992053.js",
     "static/css/2.cd1c2086.chunk.css",
     "static/js/2.21978199.chunk.js",
-    "static/css/main.e6e9272a.chunk.css",
-    "static/js/main.b2dc4543.chunk.js"
+    "static/css/main.0cd8f19e.chunk.css",
+    "static/js/main.e2064be0.chunk.js"
   ]
 }
