@@ -17,7 +17,7 @@ Contributors Names
 Me, myself, and I
 
 ## Deployed Site Link
-https://codingwithjess.github.io/
+https://codingwithjess.github.io/react-portfolio/
 
 ## Images of deployed site
 ![Portfolio](src/img/preview.png?raw=true "Portfolio")
