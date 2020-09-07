@@ -10,15 +10,9 @@ class App extends Component {
       <div className="demo-big-content">
         <Layout>
           <Header
-            className="header-color"
-            title={
-              <Link style={{ textDecoration: "none", color: "white" }} to="/react-portfolio/">
-                Home
-              </Link>
-            }
-            scroll
-          >
+            className="header-color" title scroll>
             <Navigation>
+              <Link to="/react-portfolio/">Home</Link>
               <Link to="/aboutme">About Me</Link>
               <Link to="/projects">Projects</Link>
               <Link to="/contact">Contact</Link>

@@ -37,27 +37,36 @@ span{
 
 /* projects styling */
 .projects-grid {
-  display: flex;
+  background-image: url(./img/Sparkle.jpg);
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  top: 0;
+  left: 0;
 }
 
 .project-body{
-  background-image: url(./img/Sparkle.jpg);
-  background-repeat: none;
-  background-size: cover;
-  height:100%;
-}
-
-.project-content{
-  background: #4c5b5e;
-  opacity:.92;
-  border-radius: 12px;
+  display: flex;
 }
 
 .about-body{
   background-image: url(./img/Sparkle.jpg);
+  text-align: center;
   background-repeat: none;
   background-size: cover;
+  background-position: center;
   height: 100%;
+}
+
+.pageHeader{
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.selfie{
+  max-width: 450px;
 }
 
 .about-grid{
@@ -77,24 +86,23 @@ span{
   background-image: url(./img/Sparkle.jpg);
   background-repeat: none;
   background-size: cover;
-  margin: auto;
-  position: fixed;
+  text-align: center;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  justify-content: center;
-  padding-top: 2em;
 }
 
 .contact-grid {
   text-align: center;
   justify-content: center;
   width: 80%;
-  height: 550px;
+  height: auto;
   background: #4c5b5e;
   opacity:.92;
   border-radius:12px;
   color: #ffdfaf;
-  margin-bottom: 20px;
+  margin-top:100px;
 }
 
 .contact-grid h2 {

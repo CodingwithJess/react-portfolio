@@ -1,22 +1,25 @@
 import React, { Component } from "react";
-import {Tabs,Tab,Grid,Cell,Card,CardTitle,CardText,CardActions,Button,CardMenu,IconButton,} from "react-mdl";
+import {Grid,Cell,Card,CardTitle,CardText,CardActions,Button,CardMenu,IconButton,} from "react-mdl";
+import projectHeader from "../img/Projects.png";
 
 class Projects extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { activeTab: 0 };
-  }
-
-  toggleCategories() {
-    if (this.state.activeTab === 0) {
-      return (
-        <div className="projects-grid">
-          {/* Project 1 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+  render() {
+    return (
+    <div className="projects-grid">
+    <Grid>
+      <Cell col={12}>
+        <img
+          src={projectHeader}
+          alt="Project Logo"
+          className="pageHeader"
+        />
+      </Cell>
+      <Cell col={3}>
+      <Card shadow={5} style={{ minWidth: "450", margin: "auto",borderRadius:"12px" }}>
             <CardTitle
               style={{
                 color: "#fff",
-                height: "276px",
+                height: "250px",
                 background:
                   "url(https://raw.githubusercontent.com/CodingwithJess/CampTracker/master/public/assets/images/CampFound-Preview.png) top / cover",
               }}
@@ -35,17 +38,13 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
-        </div>
-      );
-    } else if (this.state.activeTab === 1) {
-      return (
-        <div>
-          {/* Project 2 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+      </Cell>
+      <Cell col={3}>
+      <Card shadow={5} style={{ minWidth: "450", margin: "auto",borderRadius:"12px" }}>
             <CardTitle
               style={{
                 color: "#4c5b5e",
-                height: "276px",
+                height: "250px",
                 background:
                   "url(https://raw.githubusercontent.com/CodingwithJess/bobs-burgers/master/public/img/BobsBurgers.png) top / cover",
               }}
@@ -64,17 +63,13 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
-        </div>
-      );
-    } else if (this.state.activeTab === 2) {
-      return (
-        <div>
-          {/* Project 3 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+      </Cell>
+      <Cell col={3}>
+      <Card shadow={5} style={{ minWidth: "450", margin: "auto", borderRadius:"12px" }}>
             <CardTitle
               style={{
                 color: "#4c5b5e",
-                height: "276px",
+                height: "250px",
                 background:
                   "url(https://raw.githubusercontent.com/CodingwithJess/moolah/master/public/icons/MoolahPreview.png) top / cover",
               }}
@@ -93,13 +88,9 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
-        </div>
-      );
-    } else if (this.state.activeTab === 3) {
-      return (
-        <div>
-          {/* Project 4 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+      </Cell>
+      <Cell col={3}>
+      <Card shadow={5} style={{ minWidth: "450", margin: "auto", borderRadius:"12px" }}>
             <CardTitle
               style={{
                 color: "#fff",
@@ -111,7 +102,7 @@ class Projects extends Component {
               FITish
             </CardTitle>
             <CardText>
-            This app allows users to view, create, and track daily workouts. 
+            This app allows users to view, create, and track daily workouts. This will store last workout logged so that it can be added to at a later time.
             </CardText>
             <CardActions border>
             <Button href="https://github.com/CodingwithJess/FITish" target="_blank" colored><i class="fab fa-github"></i> GitHub Repo</Button>
@@ -122,29 +113,11 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
-        </div>
-      );
-    }
-  }
-  render() {
-    return (
-      <div className="project-body">
-        <div className="project-content">
-          <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-            <Tab>1</Tab>
-            <Tab>2</Tab>
-            <Tab>3</Tab>
-            <Tab>4</Tab>
-          </Tabs>
-          <Grid>
-            <Cell col={12}>
-              <div className="content">{this.toggleCategories()}</div>
-            </Cell>
-          </Grid>
-        </div>
-      </div>
-    )
-  }
-}
+      </Cell>
+    </Grid>    
+    </div>
+    );
+  };
+};
 
 export default Projects;
