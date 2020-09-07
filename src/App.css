@@ -39,7 +39,6 @@ span{
 .projects-grid {
   background-image: url(./img/Sparkle.jpg);
   background-size: cover;
-  position: relative;
   text-align: center;
   top: 0;
   left: 0;
@@ -47,6 +46,12 @@ span{
 
 .project-body{
   display: flex;
+}
+
+.selfie{
+  border-radius:12px;
+  max-width: 450px;
+  margin: 10px;
 }
 
 .about-body{
@@ -65,10 +70,6 @@ span{
   margin-right: auto;
 }
 
-.selfie{
-  max-width: 450px;
-}
-
 .about-grid{
   text-align: center;
   justify-content: center;
@@ -77,7 +78,6 @@ span{
   opacity:.92;
   border-radius:12px;
   color: #ffdfaf;
-  marign: 20px;
 }
 
 /* contact page css */
@@ -112,6 +112,12 @@ span{
 .contact-grid p {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
+}
+
+.about-grid hr {
+  border-top: 5px dotted #eebe68;
+  width: 50%;
+  margin: auto;
 }
 
 .contact-grid hr {
