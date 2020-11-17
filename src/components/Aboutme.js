@@ -6,7 +6,7 @@ import aboutMe from "../img/AboutMe.png"
 class About extends Component {
   render() {
     return (
-      <div className="about-body" style={{ width: "100%", margin: "auto" }}>
+      <div className="about-body">
             <img
               src={aboutMe}
               alt="AboutMe"
@@ -41,7 +41,8 @@ class About extends Component {
             side of Front End, and the analytical and robust side of Back End.
             Coding has me spellbound and I cannot wait to see where the
             journey takes me.
-          </p>
+            </p>
+            <br/>
             <hr/>
           </Cell>
         </Grid>

@@ -46,18 +46,18 @@ class Projects extends Component {
                 color: "#4c5b5e",
                 height: "250px",
                 background:
-                  "url(https://raw.githubusercontent.com/CodingwithJess/bobs-burgers/master/public/img/BobsBurgers.png) top / cover",
+                  "url(https://raw.githubusercontent.com/CodingwithJess/Worthy-Origin/master/client/src/img/WO-preview.png) top / cover",
               }}
             >
-              Bob's Burgers
+              Worthy Origin
             </CardTitle>
             <CardText>
-            Bob's Burgers is burger application that allows a user to add burgers to the menu, consume the burgers, and delete them. When a burger has been eaten, it moves categories on the page.
+            Worthy Origin is an app where users can gather more information on the environmental impact of their grocery items. Users can search for food items to see what green house gas emissions are associated with each product. Users can also search for a local farmers market and login to create their own save-able grocery list. This grocery list will gives a total green house gas emissions for the entire list.
             </CardText>
             <CardActions border>
-            <Button href="https://github.com/CodingwithJess/bobs-burgers" target="_blank" colored><i class="fab fa-github"></i> GitHub Repo</Button>
+            <Button href="https://github.com/CodingwithJess/Worthy-Origin" target="_blank" colored><i class="fab fa-github"></i> GitHub Repo</Button>
               <br/>
-              <Button href="https://rocky-fjord-82526.herokuapp.com" target="_blank" colored><i class="fas fa-external-link-alt"></i> Deployed Site</Button>
+              <Button href="https://worthyorigin.herokuapp.com/" target="_blank" colored><i class="fas fa-external-link-alt"></i> Deployed Site</Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />

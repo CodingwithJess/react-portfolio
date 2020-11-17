@@ -18,7 +18,7 @@ class Landing extends Component {
               <br/>
               <p>
                 HTML/CSS | Bootstrap | JavaScript | MongoDB | Express | React |
-                Node›
+                Node
               </p>
               <hr/>
               <br/>

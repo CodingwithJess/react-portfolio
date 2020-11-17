@@ -86,6 +86,7 @@ span{
   background-image: url(./img/Sparkle.jpg);
   background-repeat: none;
   background-size: cover;
+  justify-content: center;
   text-align: center;
   top: 0;
   left: 0;
